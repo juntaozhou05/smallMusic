@@ -1,0 +1,42 @@
+.bottombar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 5px;
+  border-top: 1px solid #e5e7e8;
+  font-size: 20px;
+  height: 50px;
+  line-height: 45px;
+}
+.bottombar .cover {
+  display: flex;
+  justify-content: space-between;
+}
+.bottombar .cover .left {
+  font-size: 12px;
+  display: flex;
+}
+.bottombar .cover .left img {
+  width: 40px;
+  height: 40px;
+}
+.bottombar .cover .left .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 10px;
+}
+.bottombar .cover .left .musicName {
+  font-size: 14px;
+  font-weight: 400;
+}
+.bottombar .right .icon-play {
+  border: 1px solid gray;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 16px;
+}
+.bottombar .right i {
+  margin: 0 5px;
+}

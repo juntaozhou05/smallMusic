@@ -1,0 +1,23 @@
+.mymusic {
+  padding-top: 50px;
+  background-color: #fbfbfb;
+}
+.mymusic .items {
+  display: flex;
+  color: #c62f2f;
+  height: 50px;
+  line-height: 50px;
+}
+.mymusic .items i {
+  font-size: 25px;
+  width: 50px;
+  text-align: center;
+}
+.mymusic .items .title {
+  color: gray;
+  flex: 1;
+  border-bottom: 1px solid #e5e7e8;
+}
+.info:before {
+  vertical-align: -webkit-baseline-middle;
+}

@@ -1,0 +1,14 @@
+.header {
+  font-size: 25px;
+  background-color: #c62f2f;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  position: fixed;
+  width: 100%;
+}
+.header .center i {
+  margin: 0 10px;
+  font-size: 23px;
+}
