@@ -5,6 +5,7 @@ import "./common/font-icon/style.css";
 import Header from "./Header/";
 import Mymusic from "./Mymusic/";
 import Bottombar from "./Bottombar/";
+import Sidebar from './Sidebar'
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <Header />
         <Mymusic />
         <Bottombar />
+        <Sidebar />
       </div>
     );
   }
