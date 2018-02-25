@@ -1,6 +1,6 @@
 import { connect } from "react-redux";
 import { LEFT, HIDE } from "../actions/showBar";
-import Sidebar from "../components/Sidebar";
+import Header from "../components/Header/index.js";
 
 const mapStateToProps = state => ({
   number: state.showBar.number
@@ -11,6 +11,6 @@ const mapDispatchToProps = dispatch => ({
   onClickHide: () => dispatch({ type: HIDE })
 });
 
-const MoveContainer = connect(mapStateToProps, mapDispatchToProps)(Sidebar);
+const HeaderMove = connect(mapStateToProps, mapDispatchToProps)(Header);
 
-export default MoveContainer;
+export default HeaderMove;

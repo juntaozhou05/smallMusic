@@ -7,10 +7,9 @@ class Sidebar extends Component {
     this.state = {};
   }
   render() {
-    const { leftNumber } = this.props;
-    console.log(this.props);
+    const { number, onClickHide } = this.props;
     return (
-      <div className="sidebar" style={{ left: leftNumber }}>
+      <div className="sidebar" style={{ left: number }} onClick={onClickHide}>
         <div className="left">
           <div className="top">
             <img className="usericon" src="" alt="" />

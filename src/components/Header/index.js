@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./header.css";
-import { Link } from "react-router-dom";
 
 class Header extends Component {
   constructor(props) {
@@ -8,15 +7,16 @@ class Header extends Component {
     this.state = {};
   }
   render() {
+    const { onClickShow } = this.props;
     return (
       <div className="header">
-        <i className="menu icon-menu" />
+        <i className="menu icon-menu" onClick={onClickShow} />
         <div className="center">
           <i className="music icon-music" />
           <i className="find icon-wangyi" />
           <i className="community icon-community" />
         </div>
-        <i class="search icon-search" />
+        <i className="search icon-search" />
       </div>
     );
   }

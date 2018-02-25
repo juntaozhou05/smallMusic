@@ -5,7 +5,7 @@
     position: absolute;
     top:0;
     background-color: rgba(0, 0, 0, 0.5);
-    transition: left 1s;
+    transition: left 0.5s;
 }
 .sidebar .left {
     width:70%;
