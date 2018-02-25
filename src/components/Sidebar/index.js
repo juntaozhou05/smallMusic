@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./sidebar.css";
-import usericon from "public/imgs/userlogo.jpg";
 
 class Sidebar extends Component {
   constructor(props) {
@@ -8,11 +7,13 @@ class Sidebar extends Component {
     this.state = {};
   }
   render() {
+    const { leftNumber } = this.props;
+    console.log(this.props);
     return (
-      <div className="sidebar">
+      <div className="sidebar" style={{ left: leftNumber }}>
         <div className="left">
           <div className="top">
-            <img className="usericon" src={usericon} alt="" />
+            <img className="usericon" src="" alt="" />
           </div>
         </div>
       </div>

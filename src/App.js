@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import "./App.css";
 import "./common/font-icon/style.css";
 
-import Header from "./Header/";
-import Mymusic from "./Mymusic/";
-import Bottombar from "./Bottombar/";
-import Sidebar from './Sidebar'
+import Header from "./components/Header/";
+import Mymusic from "./components/Mymusic/";
+import Bottombar from "./components/Bottombar/";
+import MoveContainer from "./containers/MoveContainer";
 
 class App extends Component {
   render() {
@@ -14,7 +14,7 @@ class App extends Component {
         <Header />
         <Mymusic />
         <Bottombar />
-        <Sidebar />
+        <MoveContainer />
       </div>
     );
   }
