@@ -18,6 +18,9 @@
   flex: 1;
   border-bottom: 1px solid #e5e7e8;
 }
+.mymusic .items .myCollection {
+  border: none;
+}
 .info:before {
   vertical-align: -webkit-baseline-middle;
 }

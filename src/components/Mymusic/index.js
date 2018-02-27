@@ -29,7 +29,7 @@ class Mymusic extends Component {
         </div>
         <div className="items">
           <i className="info icon-collect" />
-          <div className="title">
+          <div className="title myCollection">
             我的收藏 <span>(28)</span>
           </div>
         </div>
