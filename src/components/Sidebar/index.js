@@ -81,7 +81,7 @@ class Sidebar extends Component {
               <i class="icon-setting" /> 设置
             </div>
             <div className="out">
-              <i class="icon-exit" /> 退出
+              <i className="icon-exit" /> 退出
             </div>
           </div>
         </div>
