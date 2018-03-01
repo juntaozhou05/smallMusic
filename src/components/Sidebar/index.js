@@ -38,47 +38,47 @@ class Sidebar extends Component {
               <div className="floatRight">2018.10.1到期</div>
             </div>
             <div className="items">
-              <i class="icon icon-market" />
+              <i className="icon icon-market" />
               <span className="title">商城</span>
             </div>
             <div className="line" />
             <div className="items">
-              <i class="icon icon-friend" />
+              <i className="icon icon-friend" />
               <span className="title">我的好友</span>
             </div>
             <div className="items">
-              <i class="icon icon-place" />
+              <i className="icon icon-place" />
               <span className="title">附近的人</span>
             </div>
             <div className="line" />
             <div className="items">
-              <i class="icon icon-theme" />
+              <i className="icon icon-theme" />
               <span className="title">个性换肤</span>
               <div className="floatRight">官方红</div>
             </div>
             <div className="items">
-              <i class="icon icon-set-time" />
+              <i className="icon icon-set-time" />
               <span className="title">定时播放</span>
             </div>
             <div className="items">
-              <i class="icon icon-lock" />
+              <i className="icon icon-lock" />
               <span className="title">音乐闹钟</span>
             </div>
             <div className="items">
-              <i class="icon icon-car" />
+              <i className="icon icon-car" />
               <span className="title">驾驶模式</span>
             </div>
             <div className="items">
-              <i class="icon icon-cloud" />
+              <i className="icon icon-cloud" />
               <span className="title">音乐云盘</span>
             </div>
           </div>
           <div className="bottom">
             <div className="mode">
-              <i class="icon-night" /> 夜间模式
+              <i className="icon-night" /> 夜间模式
             </div>
             <div className="set">
-              <i class="icon-setting" /> 设置
+              <i className="icon-setting" /> 设置
             </div>
             <div className="out">
               <i className="icon-exit" /> 退出

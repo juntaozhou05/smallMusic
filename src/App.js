@@ -7,6 +7,7 @@ import Mymusic from "./components/Mymusic/";
 import Bottombar from "./components/Bottombar/";
 import MoveContainer from "./containers/MoveContainer";
 import Mymusiclist from "./components/Mymusiclist/";
+import ConnectMymusiclist from "./containers/ConnectMymusiclist";
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
           <Mymusiclist />
           <Mymusiclist />
         </div>
+        <ConnectMymusiclist />
       </div>
     );
   }

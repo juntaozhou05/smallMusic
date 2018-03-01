@@ -1,0 +1,38 @@
+.bottomlist {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 111;
+}
+.bottomlist .content {
+  height: 220px;
+  background: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 20px;
+}
+.bottomlist .content .item {
+  padding: 7px 15px;
+  font-size: 13px;
+  display: flex;
+}
+.bottomlist .content .item i {
+  display: inline-block;
+  width: 35px;
+  font-size: 22px;
+  color: red;
+}
+.bottomlist .content .item .title {
+  flex: 1;
+  border-bottom: 1px solid rgba(7, 17, 27, 0.1);
+  padding: 6px 0;
+  font-size: 15px;
+}
+.bottomlist .content .item .info:before {
+  vertical-align: middle;
+}
