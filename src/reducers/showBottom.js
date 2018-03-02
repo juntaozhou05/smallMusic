@@ -1,15 +1,15 @@
-import { LEFT, HIDE } from "../actions/showBar.js";
+import { SHOW1, HIDE1 } from "../actions/showBottom.js";
 
 let initState = {
-  number: "-100%"
+  numbers: "100%"
 };
 
 export default function change(state = initState, action) {
   switch (action.type) {
-    case LEFT:
-      return { number: "0" };
-    case HIDE:
-      return { number: "-100%" };
+    case SHOW1:
+      return { numbers: "0" };
+    case HIDE1:
+      return { numbers: "100%" };
     default:
       return state;
   }

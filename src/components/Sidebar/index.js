@@ -33,7 +33,7 @@ class Sidebar extends Component {
               <span className="title">我的消息</span>
             </div>
             <div className="items">
-              <i class="icon icon-vip" />
+              <i className="icon icon-vip" />
               <span className="title">我的会员</span>
               <div className="floatRight">2018.10.1到期</div>
             </div>

@@ -37,6 +37,7 @@ class Mymusiclist extends Component {
     }
   }
   render() {
+    const { onClickShow } = this.props;
     return (
       <div className="mymusiclist">
         <div className="musicTitle" onClick={this.toggleShow.bind(this)}>
@@ -54,7 +55,7 @@ class Mymusiclist extends Component {
                     <div className="total">{item.total}</div>
                   </div>
                 </div>
-                <div className="right">
+                <div className="right" onClick={onClickShow}>
                   <i className="setting icon-list-circle" />
                 </div>
               </div>

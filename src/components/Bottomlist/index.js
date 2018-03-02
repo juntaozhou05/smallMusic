@@ -9,7 +9,7 @@ class Bottomlist extends Component {
   render() {
     const { number, onClickHide } = this.props;
     return (
-      <div className="bottomlist" style={{ top: number }}>
+      <div className="bottomlist" style={{ top: number }} onClick={onClickHide}>
         <div className="content">
           <div className="item">歌单：我喜欢的音乐</div>
           <div className="item">

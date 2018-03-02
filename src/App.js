@@ -6,8 +6,8 @@ import HeaderMove from "./containers/HeaderMove";
 import Mymusic from "./components/Mymusic/";
 import Bottombar from "./components/Bottombar/";
 import MoveContainer from "./containers/MoveContainer";
-import Mymusiclist from "./components/Mymusiclist/";
 import ConnectMymusiclist from "./containers/ConnectMymusiclist";
+import ConnectBottomlist from "./containers/ConnectBottomlist";
 
 class App extends Component {
   render() {
@@ -18,10 +18,10 @@ class App extends Component {
         <Bottombar />
         <MoveContainer />
         <div className="listCover">
-          <Mymusiclist />
-          <Mymusiclist />
+          <ConnectMymusiclist />
+          <ConnectMymusiclist />
         </div>
-        <ConnectMymusiclist />
+        <ConnectBottomlist />
       </div>
     );
   }

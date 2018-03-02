@@ -1,9 +1,9 @@
 import { connect } from "react-redux";
 import { SHOW1, HIDE1 } from "../actions/showBottom";
-import Mymusiclist from "../components/Mymusiclist";
+import Bottomlist from "../components/Bottomlist";
 
 const mapStateToProps = state => ({
-  number: state.showBottom.number
+  number: state.showBottom.numbers
 });
 
 const mapDispatchToProps = dispatch => ({
@@ -11,8 +11,8 @@ const mapDispatchToProps = dispatch => ({
   onClickHide: () => dispatch({ type: HIDE1 })
 });
 
-const ConnectMymusiclist = connect(mapStateToProps, mapDispatchToProps)(
-  Mymusiclist
+const ConnectBottomlist = connect(mapStateToProps, mapDispatchToProps)(
+  Bottomlist
 );
 
-export default ConnectMymusiclist;
+export default ConnectBottomlist;
