@@ -8,6 +8,7 @@ import Bottombar from "./components/Bottombar/";
 import MoveContainer from "./containers/MoveContainer";
 import ConnectMymusiclist from "./containers/ConnectMymusiclist";
 import ConnectBottomlist from "./containers/ConnectBottomlist";
+import ConnectDetailplay from "./containers/ConnectDetailplay";
 
 class App extends Component {
   render() {
@@ -22,6 +23,7 @@ class App extends Component {
           <ConnectMymusiclist />
         </div>
         <ConnectBottomlist />
+        <ConnectDetailplay />
       </div>
     );
   }
