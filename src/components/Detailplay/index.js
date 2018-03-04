@@ -12,7 +12,9 @@ class Detailplay extends Component {
         <div className="top">
           <div className="left">
             <i class="back icon-back" />
-            <div className="title" />
+            <div className="title">
+              <div>ff</div>
+            </div>
           </div>
         </div>
       </div>
