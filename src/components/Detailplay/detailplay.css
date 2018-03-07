@@ -2,13 +2,13 @@
   position: fixed;
   z-index: 112;
   top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   background-color: #aaa;
+  transition: left 0.6s;
 }
 .detailplay .detailCover {
-  position: fixed;
+  position: absolute;
   height: 100%;
   width: 100%;
   top: 0;
@@ -50,15 +50,44 @@
 }
 .detailplay .detailContent {
   position: absolute;
-  top: 100px;
+  top: 80px;
   width: 100%;
   height: 100%;
+}
+.detailplay .detailContent .swith-line {
+  width: 80%;
+  height: 1px;
+  background-image: linear-gradient(
+    270deg,
+    hsla(0, 0%, 100%, 0),
+    hsla(0, 0%, 100%, 0.6),
+    hsla(0, 0%, 100%, 0)
+  );
+  margin: 0 auto;
+}
+.detailplay .detailContent .swith-line .trger {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  -webkit-transform: translate3d(-16px, 0, 0);
+  transform: translate3d(-16px, 0, 0);
+  width: 90px;
+  height: 140px;
+  background-image: url(/static/images/swith.png);
+  background-size: cover;
+  -webkit-transform-origin: 14px 16px;
+  transform-origin: 14px 16px;
+  transition: all 0.3s;
+  z-index: 5;
+}
+.detailplay .detailContent .swith-line .pause {
+  transform: translate3d(-16px, 0, 0) rotate(-30deg);
 }
 .detailplay .imgCover {
   width: 280px;
   height: 280px;
   position: absolute;
-  top: 0;
+  top: 10px;
   bottom: 0;
   left: 0;
   right: 0;
@@ -112,7 +141,7 @@
   display: flex;
 }
 .detailplay .playControl .line {
-  width: 80%;
+  width: 95%;
   height: 2px;
   background-color: #dcd9d9;
   margin: 5px 8px;
