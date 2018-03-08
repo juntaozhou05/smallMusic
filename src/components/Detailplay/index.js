@@ -50,8 +50,8 @@ class Detailplay extends Component {
             <img className="singImg" src={this.state.bgimg} alt="" />
           </div>
           <div className="tools">
-            <i class="music icon-music" />
             <i class="find icon-wangyi" />
+            <i class="music icon-music" />
             <i className="share icon-share" />
             <i className="setting icon-list-circle" />
           </div>
