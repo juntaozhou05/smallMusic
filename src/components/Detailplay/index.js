@@ -73,4 +73,6 @@ class Detailplay extends Component {
   }
 }
 
+
+
 export default Detailplay;
